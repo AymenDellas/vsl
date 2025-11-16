@@ -1,0 +1,54 @@
+"use client";
+import { cn } from "../../src/lib/utils";
+import React, { ReactNode } from "react";
+
+interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {
+  children: ReactNode;
+  showRadialGradient?: boolean;
+}
+
+export const AuroraBackground = ({
+  className,
+  children,
+  showRadialGradient = true,
+  ...props
+}: AuroraBackgroundProps) => {
+  return (
+    <main>
+      <div
+        className={cn(
+          "relative flex flex-col h-screen items-center justify-center  text-slate-950 transition-bg",
+          className
+        )}
+        {...props}
+      >
+        <div className="absolute inset-0 overflow-hidden">
+          <div
+            //   I'm sorry but this is what peak developer performance looks like // trigger warning
+            className={cn(
+              `
+            [--white-gradient:repeating-linear-gradient(100deg,var(--white)_0%,var(--white)_7%,var(--transparent)_10%,var(--transparent)_12%,var(--white)_16%)]
+            [--dark-gradient:repeating-linear-gradient(100deg,var(--black)_0%,var(--black)_7%,var(--transparent)_10%,var(--transparent)_12%,var(--black)_16%)]
+            [--aurora:repeating-linear-gradient(100deg,#84cc16_10%,#a3e635_15%,#ffffff_20%,#a3e635_25%,#84cc16_30%)]
+            [background-image:var(--white-gradient),var(--aurora)]
+            dark:[background-image:var(--dark-gradient),var(--aurora)]
+            bg-size-[300%,200%]
+            bg-position-[50%_50%,50%_50%]
+            filter blur-[10px] invert dark:invert-0
+            after:content-[""] after:absolute after:inset-0 after:[background-image:var(--white-gradient),var(--aurora)] 
+            after:dark:[background-image:var(--dark-gradient),var(--aurora)]
+            after:bg-size-[200%,100%]
+            after:animate-aurora after:bg-fixed after:mix-blend-difference
+            pointer-events-none
+            absolute -inset-2.5 opacity-50 will-change-transform`,
+
+              showRadialGradient &&
+                `mask-[radial-gradient(ellipse_at_100%_0%,black_10%,var(--transparent)_70%)]`
+            )}
+          ></div>
+        </div>
+        {children}
+      </div>
+    </main>
+  );
+};
