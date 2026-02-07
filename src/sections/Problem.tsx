@@ -6,7 +6,6 @@ const Problem = () => {
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center leading-tight">
 
           You're great at coaching -{" "}
-          You're great at coaching —{" "}
 
           <span className="relative inline-block">
             <span className="absolute inset-0 bg-red-400/20 -rotate-1"></span>
@@ -22,7 +21,6 @@ const Problem = () => {
 
               You've got the expertise, you've got the drive, but{" "}
 
-              You've got the expertise, you've got the drive — but{" "}
  
               <span className="font-bold text-red-600">
                 the leads are inconsistent.
