@@ -37,15 +37,15 @@ const WYG = () => {
   return (
     <section className="w-full my-20 px-4">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-linear-to-br from-lime-50 to-lime-200 from-60% rounded-2xl shadow-xl overflow-hidden px-8 pb-8 md:px-12 md:pb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-white bg-linear-to-t from-zinc-800 to-95% to-black rounded-b-lg w-fit mx-auto px-8 py-4 mb-10">
+        <div className="bg-linear-to-br from-lime-50 to-lime-200 from-60% rounded-2xl shadow-xl overflow-hidden px-4 sm:px-8 pb-8 md:px-12 md:pb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-white bg-linear-to-t from-zinc-800 to-95% to-black rounded-b-lg w-fit mx-auto px-4 sm:px-8 py-4 mb-8 sm:mb-10">
             What Do You Get?
           </h2>
 
-          <ul className="space-y-6 ml-6">
+          <ul className="space-y-6 ml-2 sm:ml-6">
             {features.map((feature, index) => (
               <li key={index} className="leading-relaxed">
-                <h3 className="text-xl md:text-2xl font-bold text-zinc-900 mb-2">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-zinc-900 mb-2">
                   ∙ {feature.title}
                 </h3>
                 <p className="text-zinc-700 text-base md:text-lg">

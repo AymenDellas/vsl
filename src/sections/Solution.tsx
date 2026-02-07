@@ -16,13 +16,13 @@ const Solution = () => {
             flickerChance={0.1}
           />
 
-          <div className="relative z-10 p-8 md:p-12 lg:p-16 space-y-10">
+          <div className="relative z-10 p-5 sm:p-8 md:p-12 lg:p-16 space-y-8 sm:space-y-10">
             {/* Header badge */}
             <div className="flex justify-center -mt-4">
-              <div className="inline-block px-8 py-3 rounded-full ">
-                <h2 className="text-xl md:text-2xl font-bold text-zinc-900 tracking-tight">
+              <div className="inline-block px-2 sm:px-8 py-3 rounded-full ">
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-zinc-900 tracking-tight text-center">
                   That's exactly why I built{" "}
-                  <span className="px-4 py-2 bg-lime-400 text-lime-950 shadow-2xl shadow-lime-900/80 rounded-lg ">
+                  <span className="px-2 sm:px-4 py-2 inline-block bg-lime-400 text-lime-950 shadow-2xl shadow-lime-900/80 rounded-lg ">
                     Momentum Mastery.
                   </span>
                 </h2>
@@ -31,14 +31,14 @@ const Solution = () => {
 
             {/* Main description */}
             <div className="max-w-2xl mx-auto text-center space-y-4">
-              <p className="text-4xl md:text-3xl  text-zinc-700 font-medium">
+              <p className="text-2xl sm:text-3xl md:text-4xl text-zinc-700 font-medium">
                 A{" "}
                 <span className="text-lime-700 font-bold">
                   12-week coaching accelerator
                 </span>{" "}
-                designed to help you scale sustainably — without the guesswork.
+                designed to help you scale sustainably, without the guesswork.
               </p>
-              <p className="text-2xl md:text-xl text-zinc-600">
+              <p className="text-lg sm:text-xl md:text-2xl text-zinc-600">
                 We focus on clarity, systems, and sales psychology to help you
                 book premium clients like clockwork.
               </p>
@@ -47,7 +47,7 @@ const Solution = () => {
             {/* Divider */}
             <div className="flex items-center justify-center gap-4 py-4">
               <div className="h-px w-24 bg-linear-to-r from-transparent to-lime-400"></div>
-              <h3 className="text-2xl md:text-3xl font-bold text-zinc-900">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-zinc-900 text-center">
                 But how?
               </h3>
               <div className="h-px w-24 bg-linear-to-l from-transparent to-lime-400"></div>
@@ -60,7 +60,7 @@ const Solution = () => {
               <span className="text-lime-700">We'll Build Together</span>
             </h4>
 
-            <ul className="text-zinc-900 text-lg md:text-xl list-disc space-y-6 max-w-3xl mx-auto">
+            <ul className="text-zinc-900 text-base sm:text-lg md:text-xl list-disc space-y-6 max-w-3xl mx-auto pl-5">
               <li>
                 <span className="font-bold ">Clarify & Reposition :</span> Nail
                 your niche, redefine your messaging, and position yourself{" "}
