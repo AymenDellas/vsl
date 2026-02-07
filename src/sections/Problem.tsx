@@ -4,7 +4,10 @@ const Problem = () => {
       <div className="max-w-4xl mx-auto space-y-8">
         {/* Stronger headline with visual emphasis */}
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center leading-tight">
+codex/make-responsive-for-all-devices-kwchdw
           You're great at coaching -{" "}
+          You're great at coaching —{" "}
+ main
           <span className="relative inline-block">
             <span className="absolute inset-0 bg-red-400/20 -rotate-1"></span>
             <span className="relative">but your business feels stuck.</span>
@@ -16,7 +19,11 @@ const Problem = () => {
           <li className="flex gap-4 items-start group">
             <div className="shrink-0 w-3 h-3 bg-red-500 rounded-full mt-3 group-hover:scale-125 transition-transform"></div>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed">
+codex/make-responsive-for-all-devices-kwchdw
               You've got the expertise, you've got the drive, but{" "}
+
+              You've got the expertise, you've got the drive — but{" "}
+ main
               <span className="font-bold text-red-600">
                 the leads are inconsistent.
               </span>
