@@ -9,7 +9,7 @@ const SP = () => {
       rating: 5,
       image: "https://i.pravatar.cc/150?u=sarah",
       testimonial:
-        "I went from sporadic $8k months to $28k consistently in 10 weeks — without more ads.",
+        "I went from sporadic $8k months to $28k consistently in 10 weeks, without more ads.",
     },
     {
       name: "Daniel M.",

@@ -23,7 +23,7 @@ const FinalCta = () => {
           </p>
           <p className="border-l-4 my-8 border-primaryC pl-4 italic">
             If you don’t walk away with at least three growth blockers
-            identified and a clear roadmap to fix them — you owe nothing, and
+            identified and a clear roadmap to fix them, you owe nothing, and
             you’ll still keep the full action plan.
           </p>
           <Cta text="Book Your Funnel Growth Call Before Enrollment Closes!!" />

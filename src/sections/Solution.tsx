@@ -36,7 +36,7 @@ const Solution = () => {
                 <span className="text-lime-700 font-bold">
                   12-week coaching accelerator
                 </span>{" "}
-                designed to help you scale sustainably — without the guesswork.
+                designed to help you scale sustainably, without the guesswork.
               </p>
               <p className="text-lg sm:text-xl md:text-2xl text-zinc-600">
                 We focus on clarity, systems, and sales psychology to help you

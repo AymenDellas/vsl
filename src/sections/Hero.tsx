@@ -12,7 +12,7 @@ export default function Hero() {
           <span className="inline-block px-4 py-1 bg-primaryC text-zinc-800 rounded-lg">
             $30K/Month Machine
           </span>{" "}
-          — Without Burning Out or Relying on Luck.
+          without burning out or relying on luck.
         </h1>
         <p className="text-base sm:text-lg text-gray-200 mb-8 max-w-2xl">
           Join 100+ coaches who used Momentum Mastery to systemize their offers,

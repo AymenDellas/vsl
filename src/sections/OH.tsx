@@ -5,19 +5,19 @@ const ObjectionHandling = () => {
   const objections = [
     {
       question:
-        "I've already taken other business coaching programs — how is this different?",
+        "I've already taken other business coaching programs, how is this different?",
       answer:
-        "Most programs teach strategy in isolation. Momentum Mastery installs systems — the operational backbone that makes strategy stick.",
+        "Most programs teach strategy in isolation. Momentum Mastery installs systems, the operational backbone that makes strategy stick.",
     },
     {
       question: "I don't have time for another 12-week program.",
       answer:
-        "You don't need more time — you need leverage. Our frameworks cut wasted effort by up to 40%, freeing time while you scale.",
+        "You don't need more time, you need leverage. Our frameworks cut wasted effort by up to 40%, freeing time while you scale.",
     },
     {
       question: "What if it doesn't work for me?",
       answer:
-        "If you show up and implement, it will. But even if you don't enroll, your free Funnel Growth Call gives you a full audit and 3 growth levers you can act on immediately — no risk, no fluff.",
+        "If you show up and implement, it will. But even if you don't enroll, your free Funnel Growth Call gives you a full audit and 3 growth levers you can act on immediately, no risk, no fluff.",
     },
     {
       question: "$5,000 is a big investment.",

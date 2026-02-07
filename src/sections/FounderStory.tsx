@@ -9,16 +9,16 @@ const FounderStory = () => {
         <div className="space-y-6 text-base sm:text-lg bg-backgroundC-card ring-2 ring-zinc-700 rounded-lg p-4 sm:p-6">
           <p>
             A few years ago, I was in the same spot as most coaches I work with
-            now — working 12-hour days, juggling clients, and still stuck around{" "}
+            now, working 12-hour days, juggling clients, and still stuck around{" "}
             <span className="font-bold">$10–12K/month</span>.
           </p>
           <p>
-            I realized my “hard work” wasn’t the problem — it was{" "}
+            I realized my “hard work” wasn’t the problem, it was{" "}
             <span className="text-lime-400 font-bold">
               the lack of structure
             </span>
             . Once I built a repeatable system for delivery and a predictable
-            sales process, my income tripled — without increasing workload.
+            sales process, my income tripled, without increasing workload.
           </p>
           <p>
             That became the foundation for Momentum Mastery: a coaching program
