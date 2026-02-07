@@ -1,12 +1,12 @@
 const FounderStory = () => {
   return (
-    <section className="w-full my-20">
-      <div className="z-10 flex flex-col items-center w-[40%] mx-auto  px-6 space-y-6">
-        <h2 className="text-4xl font-bold text-center ">
+    <section className="w-full my-16 sm:my-20 px-4">
+      <div className="z-10 flex flex-col items-center w-full max-w-3xl mx-auto px-4 sm:px-6 space-y-6">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center leading-tight">
           I Built Momentum Mastery After{" "}
           <span className="text-lime-400">Hitting My Own Ceiling</span>
         </h2>
-        <div className="space-y-6 text-lg bg-backgroundC-card ring-2 ring-zinc-700 rounded-lg p-4 ">
+        <div className="space-y-6 text-base sm:text-lg bg-backgroundC-card ring-2 ring-zinc-700 rounded-lg p-4 sm:p-6">
           <p>
             A few years ago, I was in the same spot as most coaches I work with
             now — working 12-hour days, juggling clients, and still stuck around{" "}
